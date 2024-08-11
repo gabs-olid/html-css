@@ -1,0 +1,1 @@
+smi.exe inject -p "SSJJ_BattleClient_Unity" -a chuj.xyz.dll -n chuj.xyz -c Loader -m Init
