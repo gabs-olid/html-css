@@ -2,7 +2,7 @@
 
 * {
     font-family: Arial, Helvetica, sans-serif;
-    /*height: 100%;*/
+   font-size: 32px;
 }
 
 body {
@@ -30,6 +30,16 @@ h1 {
     text-shadow: 1px 1px 2px #010c0c7c;
 }
 
+
 h2 {
     color: #015958;
+    font-weight: ;
+}
+
+.pai {
+    font-size: 50px;
+}
+
+.filho {
+    font-size: 2em;
 }
