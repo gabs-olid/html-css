@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Links</title>
     <style>
+
         body {
             font-family: Arial, Helvetica, sans-serif;
         }
@@ -16,41 +17,36 @@
         }
 
         a:visited {
-            color: darkred;
-        }
-
-        a:hover {
-            color: black;
-            text-decoration: underline;
+            color: blue;
         }
         
+        a:hover {
+            text-decoration: underline;
+            color: black;
+        }
+
         a:active {
-            color:blueviolet;
+            color: yellow;
         }
 
-        .especial {
-            background-color: rgb(238, 155, 155);
-    
-        }
+        a::after {
+            content: ' [link]';
+            text-decoration: none;
+            font-weight: normal;
+            color: darkgray;
 
-        .especial::before {
-            content: '- ';
         }
-
-        .especial::after {
-            content: ' -';
-        }
-
 
     </style>
 </head>
 <body>
     <h1>Personalizando Links</h1>
     <ul>
-        <li><a href="https://github.com/gustavoguanabara/">Repositório GitHub</a></li>
+        <li><a href="https://github.com/gustavoguanabara/" target="_blank" class="especial">Repositório GitHub</a></li>
         <li><a href="https://youtube.com" target="_blank" class="especial">Canal do Youtube</a></li>
         <li><a href="https://www.cursoemvideo.com">Site do CursoemVideo</a></li>
         <li><a href="https://www.google.com" target="_blank">google</a></li>
+        <li><a href="https://www.teste.com" target="_blank">google</a></li>
     </ul>
 </body>
 </html>
