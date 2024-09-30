@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+* {
+    margin: 1px;
+    padding: 8px;
+    text-decoration: none;
+}
+
+html {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+
+menu {
+    display: none;
+}
+
+.teste {
+    width: 100%;
+}
+
+.teste::after {
+    content: " Esse artigo foi impresso através do site www.google.com";
+}
