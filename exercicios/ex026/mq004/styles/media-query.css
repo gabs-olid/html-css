@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+@media print {
+    body {
+        background-image: url(../assests/icon-print.png);
+        
+    }
+
+    h1 {
+        font-family: 'Courier New', Courier, monospace;
+        text-shadow: none;
+        color: black;
+    }
+
+    #phone {
+        display: none;
+    }
+
+    #print {
+        display: block;
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+    /*Tablet*/
+
+
+    body {
+        background-image: url(../assests/back-tablet.jpg);
+    }
+
+    #phone {
+        display: none;
+    }
+
+    #tablet {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 1301px) {
+    /*DESKTOP*/
+
+    body {
+        background-image: url(../assests/back-pc.jpg);
+    }
+
+
+    #tablet {
+        display: none;
+    }
+
+
+    #pc {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 1921px) {
+    /*GRANDES TELAS*/
+
+    body {
+        background-image: url(../assests/back-tv.jpg);
+    }
+
+    #pc {
+        display: none;
+    }
+
+    #tv {
+        display: block;
+    }
+}
