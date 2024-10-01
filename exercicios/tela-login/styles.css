@@ -5,6 +5,7 @@
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, system-ui, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     box-sizing: border-box;
+    font-size: 16px;
 }
 
 body, html {
@@ -44,9 +45,30 @@ section#login > div#imagem {
     height: 200px;
 }
 
+.icon {
+    display: block;
+    float: left;
+}
+
+#ilogin, #isenha {
+    display: inline-block;
+
+}
+
+
 section#login > div#formulario {
     display: block;
     padding: 10px;
+}
+
+div#formulario > h1{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 1.8em;
+}
+
+div#formulario > p{
+    font-size: 0.8em
 }
 
 @import url(styles/media-query.css);
